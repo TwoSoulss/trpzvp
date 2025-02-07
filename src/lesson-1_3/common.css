@@ -1,0 +1,158 @@
+header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    cursor: pointer;
+}
+
+footer {
+    background-color: darkslategrey;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 20px
+}
+
+h2 {
+    color: white;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.log{
+    border: 0;
+    background-color: cadetblue;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+
+#details{
+    text-align: right;
+    display: block;
+    margin-right: 60px;
+}
+
+#head {
+    border: 2px solid red;
+    margin: 0;
+    width: 100%;
+}
+
+#in{
+    margin-right: 30px;
+}
+
+.post {
+    display: flex;
+    gap: 15px;
+}
+
+.post img {
+    width: 150px;
+    height: auto;
+}
+
+.copy{
+    text-align: center;
+}
+
+
+#login{
+    border: 2px solid black;
+    width: 25%;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+#user, #pass {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#user p, #pass p {
+    width: 100px;
+    text-align: right;
+}
+
+#user_name{
+    margin-top: 15px;
+    width: 150px;
+    height: 20px;
+}
+
+#pass_name{
+    margin-top: 15px;
+    width: 150px;
+    height: 20px;
+}
+
+#login_in {
+    text-align: right;
+    border: 1px solid black;;
+    margin-left: 350px ;
+}
+
+.in_blog {
+    align-items: center;
+    text-align: center;
+    background-color: cadetblue;
+    margin-top: 0px;
+}
+
+.book_text {
+    text-align: right;
+}
+
+.book_text_liked {
+    color: chartreuse;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.book_info a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.book_main hr {
+    border: 2px solid #2e3dc4;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.author {
+    color: blue;
+    text-decoration: underline;
+}
+.book_text_about {
+    text-align: center;
+}
+
+
+
+
+
+
+
