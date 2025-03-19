@@ -10,13 +10,13 @@
 //   console.log('Argument is not a number: ', nums);
 //   return [];
 // }
-//console.log(arrayIntegersFromNToOne(5));
+// console.log(arrayIntegersFromNToOne(5));
 
 //2
 // function searchUniqueNumberFromArray(arr) {
 //     return arr.filter(item => arr.indexOf(item) === arr.lastIndexOf(item));
 // }
-// console.log(searchUniqueNumberFromArray([1, 1, 2, 1, 2]));
+// console.log(searchUniqueNumberFromArray([1, 1, 2, 1, ]));
 
 //3
 // function toSimpleArray(arr) {
